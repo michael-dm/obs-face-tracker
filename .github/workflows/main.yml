@@ -1,6 +1,7 @@
 name: Plugin Build
 
 on:
+  workflow_dispatch:
   push:
     paths-ignore:
       - '**.md'
